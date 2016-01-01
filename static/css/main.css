@@ -1,0 +1,141 @@
+/* Global */
+
+html, body, #chat-page {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+}
+
+td {
+    padding-right: 10px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+/* Login Page */
+
+#login-page {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+#login-page .form {
+    height: 100px;
+    margin-top: -100px;
+    position: absolute;
+
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+
+#login-page .form .username-input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #555;
+    outline: none;
+    padding-bottom: 15px;
+    text-align: center;
+    width: 400px;
+}
+
+#login-page .title {
+    font-size: 200%;
+}
+
+#login-page .username-input {
+    font-size: 200%;
+    letter-spacing: 3px;
+}
+
+#login-page .title, #login-page .username-input {
+    color: #555;
+    font-weight: 100;
+}
+
+/* Side Panel */
+
+#side-panel{
+    background: #444753;
+    float: left;
+    height: 100%;
+    width: 25%;
+}
+
+#side-panel {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#side-panel ul {
+    padding: 20px 0 0 20px;
+}
+
+#side-panel li {
+    margin-bottom: 25px;
+}
+
+#side-panel td {
+    color: white;
+}
+
+#side-panel .meta, .username {
+    padding-top: 3px;
+}
+
+/* Main Content */
+
+#main-content {
+    height: 100%;
+    overflow: hidden;
+}
+
+#main-content #msg-box {
+    margin: 0;
+    width: 100%;
+    height: 70%;
+    padding: 20px 0 40px 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#main-content form {
+    width: 100%;
+    height: 30%;
+}
+
+#main-content #msg-text-area {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+#main-content #btn-send {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+#main-content #chat {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#main-content #chat li {
+    margin-bottom: 25px;
+}
+
+#main-content #chat .meta {
+    padding-bottom: 10px;
+}

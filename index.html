@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+    <title>Den Den Mushi</title>
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/bubble-box.css">
+    <link rel="stylesheet" href="static/css/main.css">
+</head>
+<body>
+
+<div id="login-page">
+    <div class="form">
+        <h3 class="title">What's your nickname?</h3>
+        <input class="username-input" type="text" maxlength="15" placeholder="" />
+    </div>
+</div>
+
+<div id="chat-page" style="display: none;">
+    <aside id="side-panel" class="side-panel">
+        <ul id="user-list"></ul>
+    </aside>
+
+    <div id="main-content" class="main-content">
+        <div id="msg-box">
+            <ul id="chat" class="chat"></ul>
+        </div>
+        <form>
+            <textarea class="form-control" id="msg-text-area" placeholder="Mushi Mushi..."></textarea>
+            <button id="btn-send" class="btn btn-success">Send</button>
+        </form>
+    </div>
+</div>
+
+<script src="static/js/jquery.min.js"></script>
+<script src="static/js/sprintf.min.js"></script>
+<script src="static/js/socket.io.min.js"></script>
+<script src="static/js/main.js"></script>
+
+</body>
+</html>
+
